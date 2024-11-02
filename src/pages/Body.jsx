@@ -5,7 +5,7 @@ import { LuBookMarked } from "react-icons/lu";
 
 const Body = () => {
   return (
-    <div>
+    <div className="h-[1300px]">
       <div className="bg-primary h-[800px]">
         <div className="pt-44 w-[600px] flex flex-col ml-[400px]">
           <h1 className="text-light font-arvo text-3xl font-semibold ml-28">Hi, I'm Aaron. Nice to meet you.</h1>
@@ -13,7 +13,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="flex w-11/12 ml-14 h-[950px] shadow-xl relative bottom-60">
+      <div className="flex w-11/12 ml-14 shadow-xl relative bottom-60">
         <Card logo={<TbTemplate />}
               title="Designer"
               context="I value simple content structure, clean design patterns, and thoughtful interactions."
