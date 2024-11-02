@@ -6,7 +6,7 @@ const Project = () => {
         <div className="bg-primary h-[800px]">
             <div className="pt-[400px] flex flex-col items-center">
                 <h1 className="text-light font-arvo text-3xl font-semibold">My Startup Projects</h1>
-                <p className="leading-relaxed text-light font-hind text-lg pt-10 w-[700px] text-center">Here are my startup projects, built with a focus on innovation and real-world impact. Each project reflects my dedication to crafting meaningful digital solutions through hands-on problem-solving and collaboration.</p>
+                <p className="leading-relaxed tracking-wide text-light font-hind text-lg pt-10 w-[700px] text-center">Here are my startup projects, built with a focus on innovation and real-world impact. Each project reflects my dedication to crafting meaningful digital solutions through hands-on problem-solving and collaboration.</p>
             </div>
         </div>
 
