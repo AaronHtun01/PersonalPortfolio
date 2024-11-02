@@ -11,6 +11,7 @@ export default {
         secondary: "#6EACDA",
         accent: "#021526",
         light: "#ffffff",
+        gold: "#F3C623"
     },
     fontFamily: {
         arvo: ["Arvo", "san-serif"],

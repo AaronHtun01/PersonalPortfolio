@@ -13,14 +13,14 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="flex w-11/12 ml-14 h-[800px] shadow-xl relative bottom-60">
+      <div className="flex w-11/12 ml-14 h-[950px] shadow-xl relative bottom-60">
         <Card logo={<TbTemplate />}
               title="Designer"
               context="I value simple content structure, clean design patterns, and thoughtful interactions."
               subtitle="Things I enjoy designing:"
               subcontext="UX, UI, Web Design, Apps, Logos"
               tooltitle="Design Tools"
-              tools={["Figma, Canva, Pen & Paper, Sketch"]}
+              tools={["Figma", "Canva", "Pen & Paper", "Sketch"]}
               />
 
         <Card logo={<FaLaptopCode />}
@@ -29,7 +29,8 @@ const Body = () => {
               subtitle="Languages I speak:"
               subcontext="HTML, CSS, SASS, Git"
               tooltitle="Design Tools"
-              tools={["JavaScript, TypeScript, React, Next.js, GitHub, Tailwind CSS, Bootstrap, VS Code, Nelify"]}
+              tools={["JavaScript", "TypeScript", "React", "Next.js", "GitHub", "Tailwind CSS", "Bootstrap", "VS Code", "Nelify"]}
+              className="border-l-2"
         />
         
         <Card logo={<LuBookMarked />}
@@ -38,7 +39,7 @@ const Body = () => {
               subtitle="Experiences I draw from:"
               subcontext="UX/UI, Product Design"
               tooltitle="Mentor Stats"
-              tools={["1 year experience, 4 mentees"]}
+              tools={["1 year experience", "4 mentees"]}
         />
       </div>
     </div>
