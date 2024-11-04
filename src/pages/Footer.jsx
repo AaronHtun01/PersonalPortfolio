@@ -10,9 +10,9 @@ const Footer = () => {
 
   return (
     <div>
-        <div className="flex justify-around items-center w-11/12 bg-gold ml-14 p-12 rounded-xl relative top-20 shadow-md">
-            <h1 className="font-arvo text-3xl font-semibold text-primary">Start a project</h1>
-            <p className="w-96 text-center text-primary">Interested in working together? We should queue up a time to chat. I’ll buy the coffee.</p>
+        <div className="flex flex-col sm:flex-row justify-around items-center w-11/12 bg-gold mx-auto p-8 sm:p-12 rounded-xl relative top-20">
+            <h1 className="font-arvo text-2xl sm:text-3xl font-semibold text-primary pb-9 sm:pb-0">Start a project</h1>
+            <p className="w-80 text-center text-primary pb-9 sm:pb-0">Interested in working together? We should queue up a time to chat. I’ll buy the coffee.</p>
             <div className="flex gap-4 items-center border-2 border-primary py-4 px-8 rounded-3xl hover:bg-primary hover:text-light duration-500 cursor-pointer">
                 <PiHandshakeLight className="text-3xl"/>
                 <button>Let's do this</button>
